@@ -3,7 +3,7 @@
 Guía 12: Threads
 
 1. [ENTREGAR] Buffer circular
-Un buer circular es una estructura de datos de tamaño jo, que tiene conectado el principio con el nal.
+Un buffer circular es una estructura de datos de tamaño jo, que tiene conectado el principio con el nal.
 Resulta útil para implementar colas FIFO, de tamaño máximo limitado, ya que no requieren mover los
 datos a medida que se van sacando de la cola.
 En el siguiente ejemplo podemos observar la dinámica.
@@ -25,7 +25,8 @@ Se deberá realizar una librería que capture eventos de teclado y los ponga en 
 ser utilizados por cualquier programa. La misma debe correr de manera paralela, para que pueda estar
 capturando eventos constantemente sin interrumpir la ejecución del programa principal.
 Funciones recomendadas:
-start/stop: Comienzan y nalizan la captura de eventos
+start/stop: Comienzan y analizan la captura de eventos
 get_next_event: Obtener el próximo evento, siguiendo una estructura FIFO
+
 3. [ENTREGAR] Programa de prueba
 Realizar un programa que demuestre el correcto funcionamiento de las librerías realizadas.
