@@ -1,7 +1,8 @@
 # TP12
 
 Guía 12: Threads
-1. [ENTREGAR] Buer circular
+
+1. [ENTREGAR] Buffer circular
 Un buer circular es una estructura de datos de tamaño jo, que tiene conectado el principio con el nal.
 Resulta útil para implementar colas FIFO, de tamaño máximo limitado, ya que no requieren mover los
 datos a medida que se van sacando de la cola.
@@ -17,7 +18,9 @@ Crear múltiples buers;
 Ingresar un nuevo dato al nal,
 sacar el primer dato de la cola,
 indicar si el buer se encuentra lleno.
+
 2. [ENTREGAR] Generador de eventos de teclado
+
 Se deberá realizar una librería que capture eventos de teclado y los ponga en una cola para que puedan
 ser utilizados por cualquier programa. La misma debe correr de manera paralela, para que pueda estar
 capturando eventos constantemente sin interrumpir la ejecución del programa principal.
